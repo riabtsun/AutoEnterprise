@@ -1,0 +1,21 @@
+@import './header';
+@import './products';
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.container {
+	max-width: 1920px;
+	padding: 0 10px;
+	@media screen and(min-width: 576px) {
+		padding: 0 20px;
+	}
+}
+.section-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 117.9%;
+	color: #333;
+}
+
+
